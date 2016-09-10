@@ -2,11 +2,11 @@
   "name": "Amazon Review Corrector",
   "version": "0.1",
   "permissions": [
-    "https://*.amazon.com*"
+    "https://*.amazon.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://*.amazon.com*"],
+      "matches": ["https://*.amazon.com/*"],
       "js": ["correct-review.js"],
       "run_at": "document_end"
     }
