@@ -2,7 +2,9 @@
 
 Amazon's product review averages are deceptive.  They use a machine-learned model without providing the details of the weighting, which is not transparent.  It seems to agressively dismiss older reviews and place superficial emphasis on "verified purchases".
 
-This Chrome Extension calculates and displays the true raw average of the reviews.
+The end result appears to be that some products (including Amazon partners) are rated higher than what customers actually rate them.
+
+This Chrome Extension loads when you open an Amazon product page, calculating and displaying the true raw average of the reviews.
 
 ## Example
 
