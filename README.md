@@ -1,6 +1,8 @@
 # amazon-review-corrector
 
-Amazon's product review averages are deceptive.  This Chrome Extension recalculates and displays the true average.
+Amazon's product review averages are deceptive.  They use a machine-learned model without providing the details of the weighting, which is not transparent.  It seems to agressively dismiss older reviews and place superficial emphasis on "verified purchases".
+
+This Chrome Extension calculates and displays the true raw average of the reviews.
 
 ## Example
 
@@ -24,3 +26,5 @@ Amazon reports a rating 2.3 stars higher than actually reflected by reviews.
 
 ## Amazon's excuse
 ![Machine-learned Model](machine-learning-model.png)
+
+````"Amazon calculates a product’s star ratings using a machine learned model instead of a raw data average. The machine learned model takes into account factors including: the age of a review, helpfulness votes by customers and whether the reviews are from verified purchases."````
