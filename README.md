@@ -6,7 +6,7 @@ This Chrome extension loads when you open an Amazon product or review page, calc
 
 ## Why
 
-What you think are Amazon's product review averages are not raw averages as you might expect.  They use a machine-learned model without providing the details of the weighting, which is not transparent.  It seems to agressively dismiss older reviews and place superficial emphasis on "verified purchases".
+What you think are Amazon's product review averages are not raw averages.  They use a machine-learned model without providing the details of the weighting, which is not transparent.  It seems to agressively dismiss older reviews and place superficial emphasis on "verified purchases".
 
 The end result appears to be that some products (including Amazon partners) are rated significantly higher than what customers actually rate them.
 
