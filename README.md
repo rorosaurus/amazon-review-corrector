@@ -8,7 +8,9 @@ This Chrome Extension loads when you open an Amazon product page, calculating an
 
 ## Example
 
-Consider the following Xfinity offering: https://smile.amazon.com/Xfinity-Internet-Mbps-12-month-term/product-reviews/B01B6ZHZGE/
+Consider the following Xfinity offering.
+
+https://smile.amazon.com/Xfinity-Internet-Mbps-12-month-term/product-reviews/B01B6ZHZGE/
 
 ![Xfinity Review Screenshot](xfinity-review-screenshot.png)
 
@@ -20,11 +22,11 @@ Consider the following Xfinity offering: https://smile.amazon.com/Xfinity-Intern
 1 star: 87%
 ````
 
-Amazon's reported rating: ````3.7/5 stars````
+Amazon's reported rating: ````3.8/5 stars````
 
 Actual average: ````((5*8)+(4*2)+(3*1)+(2*2)+(1*87))/100 = 142/100 = 1.4/5 stars````
 
-Amazon reports a rating 2.3 stars higher than actually reflected by reviews.
+Amazon reports a rating 2.4 stars higher than actually reflected by reviews.
 
 ## Amazon's excuse
 ![Machine-learned Model](machine-learning-model.png)
