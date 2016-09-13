@@ -7,6 +7,8 @@ var percent1 = parseInt(document.getElementsByClassName("1star histogram-review-
 
 // compute the real average
 var realAverage = ((percent5*5)+(percent4*4)+(percent3*3)+(percent2*2)+(percent1*1))/100;
+// round it
+realAverage = Math.round(realAverage * 10)/10;
 
 // write the new average out
 document.getElementsByClassName("arp-rating-out-of-text")[0].innerHTML = realAverage + " out of 5 stars"
